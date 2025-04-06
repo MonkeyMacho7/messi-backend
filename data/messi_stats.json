@@ -12,6 +12,20 @@
 	  "goals": 10,
 	  "assists": 9,
 	  "matches": 20
-	}
+	},
+	{
+		"season": "2012",
+		"team": "Barcelona",
+		"goals": 73,
+		"assists": 29,
+		"matches": 60
+	  },
+	  {
+		"season": "2022",
+		"team": "Argentina",
+		"goals": 18,
+		"assists": 6,
+		"matches": 14
+	  }
   ]
   
