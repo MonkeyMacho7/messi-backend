@@ -1,9 +1,12 @@
 from pydantic import BaseModel
-from typing import Optional
 
 class MessiStat(BaseModel):
-    season: str
+    id: int
     team: str
+    season: str
+    matches: int
     goals: int
     assists: int
-    matches: int
+
+    class Config:
+        orm_mode = True
